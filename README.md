@@ -13,8 +13,6 @@ It's slow (e.g. a 60-min video takes 20-30 minutes to download). Not much i can 
 This is now a TypeScript project if you checkout the `dev` branch.
 All new development happens on `dev` branch.
 
-Use the `master` branch for the older vanilla JavaScript version.
-
 # PLEASE USE THE`dev` BRANCH, `master` is a quite a bit behind and may break in the near future
 
 ## DISCLAIMER
