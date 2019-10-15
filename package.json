@@ -1,18 +1,25 @@
 {
-  "name": "destreamer-node",
+  "name": "destreamer",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/snobu/destreamer.git"
+  },
   "version": "1.0.0",
-  "description": "",
+  "description": "Save Microsoft Stream videos for offline enjoyment.",
   "main": "destreamer.js",
   "scripts": {
     "start": "node ./destreamer.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "snobu",
+  "license": "MIT",
   "devDependencies": {
-    "puppeteer": "^1.11.0"
+    "@types/puppeteer": "^1.20.0",
+    "@types/terminal-kit": "^1.28.0"
   },
   "dependencies": {
-    "terminal-kit": "^1.26.10"
+    "puppeteer": "^1.20.0",
+    "terminal-kit": "^1.26.10",
+    "typescript": "^3.6.3"
   }
 }
